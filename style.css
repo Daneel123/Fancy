@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 body{
-    margin: 0;
+	min-width: 1080px;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Rubik', sans-serif;
 	background-color: white;
@@ -13,8 +14,8 @@ header{
 	display: flex;
 	justify-content: space-between;
 	padding: 2vw;
-    background-color: #1b1b1c;
-    margin: 0;
+	background-color: #1b1b1c;
+	margin: 0;
 	font-size: 1.1vw;
 }
 .logo img{
@@ -28,7 +29,6 @@ header{
 	align-items: center;
 }
 .block1{
-	min-width: 1080px;
 	padding: 12.5vw;
 	display: flex;
 	align-items: center;
@@ -74,7 +74,7 @@ header{
 	display: flex;
 }
 .strong_block3{
-    text-align: center;
+	text-align: center;
 	font-weight: 600;
 	font-size: 1vw;
 }
@@ -94,7 +94,7 @@ header{
 .block4 img{
 	width: 16vw;
 	border-radius: 100%;
-    border: 0.3vw solid #FFBF00;
+	border: 0.3vw solid #FFBF00;
 }
 .free{
 	margin-top: 3.5vw;
@@ -134,7 +134,7 @@ header{
 .photo img{
 	width: 16vw;
 	border-radius: 100%;
-    border: 0.3vw solid #FFBF00;
+	border: 0.3vw solid #FFBF00;
 }
 .photo div{
 	text-align: center;
