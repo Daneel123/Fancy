@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fancy</title>
+        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="\js\animate.min.css">
+    </head>
+    <body>
+		<script src="\js\wow.min.js"></script>
+		<script src="\js\main.js"></script>
+		<script src="\js\reg.js">
+		</script>
+		<header>
+			<div class="logo wow animate__fadeInLeft">
+					<img src="https://i.ibb.co/NCj2SPp/Logo.png">
+			</div>
+			<div class="flex_header">
+				<div class="open-button change-text" onclick="openForm1()">
+    				Регистрация
+				</div>
+				<div class="open-button change-text" onclick="openForm()" style="margin-left: 5%;">
+					Вход
+				</div>
+				<div class="form-popup" id="myForm">
+					<form class="form-container">
+						<h1 style="text-align: center">Вход</h1>
+
+						<label for="email"><b>Логин</b></label>
+						<input type="text" placeholder="Ваш логин" name="log" required>
+			  
+						<label for="psw"><b>Пароль</b></label>
+						<input type="password" placeholder="Ваш пароль" name="psw" required>
+			  
+						<button type="submit" class="btn">Вход</button>
+						<button type="button" class="btn" style="background-color: rgb(253, 61, 61);" onclick="closeForm()">Закрыть</button>
+					</form>
+				</div>
+				<div class="form-popup" id="myForm1">
+					<form class="form-container">
+						<h2 style="text-align: center">Регестрация</h2>
+
+						<label for="email"><b>Логин</b></label>
+						<input type="text" placeholder="Ваш логин" name="log" required>
+			  
+						<label for="psw"><b>Пароль</b></label>
+						<input type="password" placeholder="Ваш пароль" name="psw" required>
+			  
+						<button type="submit" class="btn">Вход</button>
+						<button type="button" class="btn" style="background-color: rgb(253, 61, 61);" onclick="closeForm1()">Закрыть</button>
+					</form>
+				</div>
+    		</div>
+    	</header>
+    	<div class="block1">
+    		<div class="o_nas wow animate__backInLeft" data-wow-delay=".5s">
+    			Коротко о нас
+    		</div>
+    		<div class="o_nas_text wow animate__backInRight" data-wow-delay="1s">
+    			Fancy -  это торговая площадка для ведущих веб-разработчиков, инженеров,
+    			программистов, архитекторов и консультантов. Лучшие компании и стартапы выбирают 
+    			фрилансеров Fancy для своих критически важных программных проектов.
+    		</div>
+    	</div>
+    	<div class="block2">
+    		<div class="text">
+    			Как оформить заказ
+    		</div>
+			<div class="zakaz1">
+				<div class="item wow animate__zoomInLeft">
+					<div style="font-weight: bold;">1</div>
+					<div style="margin-left: 0.6vw;">Регистрация на Fancy</div>
+				</div>
+				<div class="item wow animate__zoomInDown" data-wow-delay="0.15s" style="background-color: #1b1b1c; color: #FFBF00;">
+					<div style="font-weight: bold;">2</div>
+    			    <div style="margin-left: 0.6vw;">Выбор фрилансера</div>
+			    </div>
+			    <div class="item wow animate__zoomInRight" data-wow-delay="0.3s">
+					<div style="font-weight: bold;">3</div>
+				    <div style="margin-left: 0.6vw;">Описывание задачы</div>
+    		    </div>
+			</div>
+			<div class="zakaz1">
+    		    <div class="item wow animate__zoomInLeft" data-wow-delay="0.45s" style="background-color: #1b1b1c; color: #FFBF00;">
+					<div style="font-weight: bold;">4</div>
+    			    <div style="margin-left: 0.6vw;">Ответ на вопросы</div>
+    		    </div>
+    		    <div class="item wow animate__zoomInUp" data-wow-delay="0.6s">
+					<div style="font-weight: bold;">5</div>
+    				<div style="margin-left: 0.6vw;">Просмотр готовой работы</div>
+    		    </div>
+    		    <div class="item wow animate__zoomInRight" data-wow-delay="0.75s" style="background-color: #1b1b1c; color: #FFBF00;">
+					<div style="font-weight: bold;">6</div>
+    				<div style="margin-left: 0.6vw;">Оплата заказа</div>
+    		    </div>
+    		</div>
+    	</div>
+    	<div class="block3">
+    		<div class="stolb wow animate__bounceIn">
+    			<div class="strong_block3">
+    				12 лет на рынке
+    			</div>
+    			<div class="stolb_text">
+    				12 лет успешной работы на торговой площадки
+    			</div>
+    		</div>
+    		<div class="stolb wow animate__bounceIn" data-wow-delay="0.2s">
+    			<div class="strong_block3">
+    				1 млн проектов
+    			</div>
+    			<div class="stolb_text">
+    				Более 1 млн выполненых проектов
+    			</div>
+    		</div>
+    		<div class="stolb wow animate__bounceIn" data-wow-delay="0.4s">
+				<div class="strong_block3">
+    				200 партнеров
+    			</div>
+    			<div class="stolb_text">
+    				Более 200 партнеров и заказчиков
+    			</div>
+    		</div>
+    		<div class="stolb wow animate__bounceIn" data-wow-delay="0.6s">
+    			<div class="strong_block3">
+    				1000 фрилансеров
+    			</div>
+    			<div class="stolb_text">
+    				Более 1000 специалистов в IT сфере
+    			</div>
+    		</div>
+    	</div>
+    	<div class="block4">
+    		<div class="text wow animate__infinite">
+				Наши лучшие фрилансеры
+    		</div>
+			<div class="free">
+				<div class="wow animate__zoomIn">
+					<a href="https://www.instagram.com/sigachev/">
+						<img src="https://i.ibb.co/hDKstsf/sigachev.jpg">
+					</a>
+				</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.15s">
+					<a href="https://www.instagram.com/farelyph/">
+						<img src="https://i.ibb.co/vY6rnhM/farelyph.jpg">
+					</a>
+				</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.3s">
+					<a href="https://www.instagram.com/asabinart/">
+						<img src="https://i.ibb.co/zXXfbPK/asabin.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="nikname">
+				<div class="wow animate__zoomIn">Sigachev</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.15s">Farelyph</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.3s">Asabin</div>
+			</div>
+			<div class="free">
+				<div class="wow animate__zoomIn" data-wow-delay="0.45s">
+					<a href="https://www.instagram.com/sergikkas/">
+						<img src="https://i.ibb.co/jrZCMfs/sergikkas.jpg">
+					</a>
+				</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.6s">
+					<a href="https://www.instagram.com/bondarts/">
+						<img src="https://i.ibb.co/prQhPLs/bond.jpg">
+					</a>
+				</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.75s">
+					<a href="https://instagram.com/26.kate.design/">
+						<img src="https://i.ibb.co/ZVBZc8h/kate.jpg">
+					</a>
+				</div>								
+    		</div>
+			<div class="nikname">
+				<div class="wow animate__zoomIn" data-wow-delay="0.45s">Sergikkas</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.6s">Bondarts</div>
+				<div class="wow animate__zoomIn" data-wow-delay="0.75s">KateBee</div>
+			</div>
+    	</div>
+    	<div class="block5">
+    		<div class="text">
+    			Отзывы наших партнеров
+    		</div>
+			<div class="quotes wow animate__fadeIn">
+				<img src="https://i.ibb.co/0JNJsYq/Quotes.png">
+			</div>
+				<div class="photo">
+					<div class="wow animate__fadeIn" data-wow-delay="0.45s">
+						<img src="https://i.ibb.co/XDDb8FQ/Thierry.jpg">
+					</div>
+					<div class="wow animate__fadeIn" data-wow-delay="0.6s">
+						<img src="https://i.ibb.co/1fcd17d/Emily.jpg">
+					</div>
+					<div class="wow animate__fadeIn" data-wow-delay="0.75s">
+						<img src="https://i.ibb.co/0y2s5Q7/Elmar.jpg">
+					</div>
+				</div>
+				<div class="name">
+					<div class="wow animate__fadeInUp">
+						Тьерри Якиcевич
+					</div>
+					<div class="wow animate__fadeInUp" data-wow-delay="0.15s">
+						Эмили Лемон
+					</div>
+					<div class="wow animate__fadeInUp" data-wow-delay="0.3s">
+						Эльмар Платцер
+					</div>
+				</div>
+				<div class="work">
+					<div class="wow animate__fadeInUp">
+						Генеральный директор цифровых решений Бриджстоун
+					</div>
+					<div class="wow animate__fadeInUp" data-wow-delay="0.15s">
+						Cтарший директор Кливленд Кавальерс
+					</div>
+					<div class="wow animate__fadeInUp" data-wow-delay="0.3s">
+						Лидер цифровой трансформации КСО
+					</div>
+				</div>
+				<div class="review">
+					<div class="wow animate__fadeInUp">
+						Fancy предоставил нам доступ к лучшим дизайнерам, сэкономив нам много времени и позволив создать наилучший продукт.
+					</div>
+					<div class="wow animate__fadeInUp" data-wow-delay="0.15s">
+						Талант Fancy действительно превосходен. Они способны решать большие бизнес-задачи и кодировать невероятно эффективно.
+					</div>
+					<div class="wow animate__fadeInUp" data-wow-delay="0.3s">
+						Людей, которых мы искали, было трудно найти. Fancy помог нам достичь наших целей, предоставив высококачественные ресурсы в кратчайшие сроки.
+					</div>
+				</div>
+    	</div>
+    	<footer>
+    		<div class="flex_footer">
+    			<div class="fancy">
+					© fancy.kz, 2010 – 2022
+    			</div>
+				<div class="project">
+					<a class="change-text" href="\project\project.html">
+						О проекте
+					</a>
+					<a class="change-text" style="margin: 0 1vw 0 1vw;" href="\rule\rule.html">
+						Правила
+					</a>
+					<a class="change-text" href="https://timeweb.com/media/default/0001/02/1e80c4a950f082ec74b7ccdd6375a0961c29c078.jpeg">
+						Помощь
+					</a>
+				</div>
+				<div class="connect">
+					<a href="https://www.instagram.com/">
+						<img src="https://i.ibb.co/5sRc3Wv/insta.png" style="margin-right: 4%;">
+					</a>
+					<a href="https://vk.com/">
+						<img src="https://i.ibb.co/D8Fzw6L/vk.png" style="margin-right: 4%;">
+					</a>
+					<a href="https://www.whatsapp.com/?lang=ru">
+						<img src="https://i.ibb.co/kS8vjdV/whatsapp.png">
+					</a>
+				</div>
+    		</div>
+		</footer>
+    </body>
+</html>
