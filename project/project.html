@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fancy</title>
+        <link rel="stylesheet" href="project.css">
+		<link rel="stylesheet" href="\js\animate.min.css">
+    </head>
+    <body>
+		<script src="\js\wow.min.js"></script>
+		<script src="\js\main.js"></script>
+		<script src="\js\reg.js"></script>
+		<header>
+			<a href="\index.html" class="logo">
+					<img src="https://i.ibb.co/NCj2SPp/Logo.png">
+			</a>
+			<div class="flex_header">
+				<div class="open-button change-text" onclick="openForm1()">
+    				Регистрация
+				</div>
+				<div class="open-button change-text" onclick="openForm()" style="margin-left: 5%;">
+					Вход
+				</div>
+				<div class="form-popup" id="myForm">
+					<form class="form-container">
+						<h1 style="text-align: center">Вход</h1>
+
+						<label for="email"><b>Логин</b></label>
+						<input type="text" placeholder="Ваш логин" name="log" required>
+			  
+						<label for="psw"><b>Пароль</b></label>
+						<input type="password" placeholder="Ваш пароль" name="psw" required>
+			  
+						<button type="submit" class="btn">Вход</button>
+						<button type="button" class="btn" style="background-color: rgb(253, 61, 61);" onclick="closeForm()">Закрыть</button>
+					</form>
+				</div>
+				<div class="form-popup" id="myForm1">
+					<form class="form-container">
+						<h2 style="text-align: center">Регестрация</h2>
+
+						<label for="email"><b>Логин</b></label>
+						<input type="text" placeholder="Ваш логин" name="log" required>
+			  
+						<label for="psw"><b>Пароль</b></label>
+						<input type="password" placeholder="Ваш пароль" name="psw" required>
+			  
+						<button type="submit" class="btn">Вход</button>
+						<button type="button" class="btn" style="background-color: rgb(253, 61, 61);" onclick="closeForm1()">Закрыть</button>
+					</form>
+				</div>
+    	</header>
+		<div class="block1">
+			<div class="flex1">
+				<div class="o_nas wow animate__fadeIn">
+					Коротко о нас
+				</div>
+				<div class="o_nas_text wow animate__fadeIn">
+					Fancy -  это торговая площадка для ведущих веб-разработчиков, инженеров, программистов, 
+    			программистов, архитекторов и консультантов. Лучшие компании и стартапы выбирают 
+    			фрилансеров Fancy для своих критически важных программных проектов.
+			    </div>
+			</div>
+    	</div>
+		<div class="block2">
+			<div class="question">
+				<div class="yellow wow animate__fadeIn">
+					— Куда я попал?
+				</div>
+				<div class="text wow animate__fadeIn" data-wow-delay="0.25s">
+					— Вы попали на деньги =). На Fancy фрилансеры зарабатывают хорошие деньги, а заказчики за деньги получают хороший результат.
+				</div>
+				<div class="yellow wow animate__fadeIn" data-wow-delay="0.5s">
+					— Что со мной будет?
+				</div>
+				<div class="text wow animate__fadeIn" data-wow-delay="0.75s">
+					— Если вы заказчик, то найдёте отличного специалиста, а если фрилансер - то достойный проект.
+				</div>
+				<div class="yellow wow animate__fadeIn" data-wow-delay="1s">
+					— Как строится работа?
+				</div>
+				<div class="text wow animate__fadeIn" data-wow-delay="1.25s">
+					— Ключевое слово: удалённо. Это значит, что масштаб поиска работы или исполнителя не ограничивается географическим положением. Вашим программистом может стать фрилансер из Москвы, иллюстратором - самородок из деревни Кулички, копирайтером - сосед снизу. Бюджет и уровень профессионализма - вот единственные критерии, которыми вы руководствуетесь. 
+				</div>
+				<div style="margin-top: 3vw; font-size: 0.85vw;" class="wow animate__fadeIn" data-wow-delay="1.5s">
+					В 2018 году внесли большие корректировки в дизайн и функционал сайта. Благодаря нововведениям, сайтом станет пользоваться проще и удобнее.
+				</div>
+				<div style="margin-top: 1.5vw; font-size: 0.85vw;" class="wow animate__fadeIn" data-wow-delay="1.75s">
+					Мы не преследуем цели обогнать всех конкурентов. Мы хотим закрепиться в своей нише фриланса, где присутствуют ТОЛЬКО талантливые фрилансеры и добросовестные заказчики. 
+				</div>
+			</div>
+		</div>
+		<div class="block3">
+			<div class="class wow animate__fadeIn">
+				Коротко о наших отличиях среди популярных фриланс-бирж в интернете
+			</div>
+			<div class="flex">
+				<div>
+					<div style="font-size: 0.85vw;" class="wow animate__fadeIn" data-wow-delay="0.5s">
+						Для фрилансеров:
+					</div>
+					<ol style="font-size: 0.8vw;" class="wow animate__fadeIn" data-wow-delay="1s">
+						<li>
+							Никаких вложений. Не нужно вкладывать деньги для того чтобы найти работу.
+						</li>
+						<li>
+							Нет «дикой» конкуренции за проект, когда демпинг отвлекает работодателя от выбора толкового фрилансера.
+						</li>
+						<li>
+							Ежедневно появляются свежие актуальные заказы от прямых работодателей.
+						</li>
+						<li>
+							Красивая подача графических работ в портфолио.
+						</li>
+					</ol>
+				</div>
+				<div>
+					<div style="font-size: 0.9vw;" class="wow animate__fadeIn" data-wow-delay="0.75s">
+						Для работодателей:
+					</div>
+					<ol style="font-size: 0.85vw;" class="wow animate__fadeIn" data-wow-delay="1.25s">
+						<li>
+							Поиск резюме бесплатно.
+						</li>
+						<li>
+							За 12 лет существования, у нас сложился большой каталог фрилансеров, которым не могут похвастаться небольшие биржи удаленной работы на дому.
+						</li>
+						<li>
+							Удобный поиск фрилансеров по специальности или по портфолио.
+						</li>
+						<li>
+							Мало неопытных специалистов и халтурщиков из-за «ручной» модерации.
+						</li>
+						<li>
+							Добавление тендера или конкурса – бесплатно.
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+    	<footer>
+    		<div class="flex_footer">
+    			<div class="fancy">
+					© fancy.kz, 2010 – 2022
+    			</div>
+				<div class="project">
+					<a class="change-text" href="\project\project.html">
+						О проекте
+					</a>
+					<a class="change-text" style="margin: 0 1vw 0 1vw;" href="\rule\rule.html">
+						Правила
+					</a>
+					<a class="change-text" href="https://timeweb.com/media/default/0001/02/1e80c4a950f082ec74b7ccdd6375a0961c29c078.jpeg">
+						Помощь
+					</a>
+				</div>
+				<div class="connect">
+					<a href="https://www.instagram.com/">
+						<img src="https://i.ibb.co/5sRc3Wv/insta.png" style="margin-right: 4%;">
+					</a>
+					<a href="https://vk.com/">
+						<img src="https://i.ibb.co/D8Fzw6L/vk.png" style="margin-right: 4%;">
+					</a>
+					<a href="https://www.whatsapp.com/?lang=ru">
+						<img src="https://i.ibb.co/kS8vjdV/whatsapp.png">
+					</a>
+				</div>
+    		</div>
+		</footer>
+    </body>
+</html>
