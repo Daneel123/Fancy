@@ -52,13 +52,13 @@ header{
 .block2{
 	margin: 0 2vw 7vw 2vw;
 	padding: 2vw 4vw 4vw 4vw;
-	font-size: 1.5vw;
+	font-size: 1.25vw;
 	background-color: white;
 }
 .rulea{
 	margin: 1vw 0 1vw 0;
 	color: #1b1b1c;
-	font-size: 2.5vw;
+	font-size: 2.25vw;
 	font-weight: 600;
 }
 .rule{
@@ -66,7 +66,7 @@ header{
 }
 .margin{
 	margin: 0 2vw;
-	font-size: 1.1vw;
+	font-size: 1vw;
 }
 footer{
 	position: fixed;
