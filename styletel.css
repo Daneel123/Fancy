@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+body{
+    min-width: 480px;
+    min-height: 800px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+    background-color: #ededed;
+}
+body a{
+	text-decoration: none;
+	color: #FFBF00;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 3vw;
+    background-color: #1b1b1c;
+    margin: 0;
+	font-size: 2.5vw;
+}
+.logo img{
+    margin-top: 1vw;
+	margin-left: 1vw;
+	width: 15vw;
+}
+.flex_header{
+	color: #FFBF00;
+	width: 35vw;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+*{box-sizing: border-box;}
+.form-popup{
+	display: none;
+	position: fixed;
+}
+.change-text{
+	-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease; 
+}
+.change-text:hover{
+	color: #5265f6;
+}
+.block1{
+	padding: 8vw;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+.o_nas{
+	width: 35%;
+	font-size: 2.5vw;
+	border-left: 0.125vw solid black;
+	padding-left: 1vw;
+}
+.o_nas_text{
+	width: 65%;
+	font-size: 2vw;
+}
+.block2{
+	background-color: #ededed;
+	padding: 3vw;
+	padding-bottom: 32vw;
+}
+.text{
+	margin-top: 4vw;
+	text-align: center;
+	font-weight: 600;
+	font-size: 4vw;
+}
+.zakaz1{
+	font-size: 2.5vw;
+	margin-top: 3vw;
+	display: flex;
+	justify-content: space-around;
+}
+.item{
+	background-color: white;
+	display: flex;
+	width: 42vw;
+	height: 12.5vw;
+	align-items: center;
+	justify-content: center;
+}
+.itemtel{
+	position: absolute;
+	margin-top: 15.5vw;
+	left: 0;
+	margin-left: 5.5vw;
+}
+.itemtel2{
+	position: absolute;
+	margin-top: 15.5vw;
+	right: 0;
+	margin-right: 5.5vw;
+}
+.itemtel1{
+	margin-right: 5.5vw;
+	right: 0;
+	position: absolute;
+}
+.itemcolor{
+	background-color: #1b1b1c; 
+	color: #FFBF00;
+}
+.block3{
+	background-color: #1b1b1c;
+	padding: 2vw;
+	color: #FFBF00;
+	display: flex;
+	padding-bottom: 4vw;
+	padding-top: 4vw;
+}
+.strong_block3{
+    text-align: center;
+	font-weight: 600;
+	font-size: 1.75vw;
+}
+.stolb{
+	justify-content: space-around;
+	width: 50vw;
+	font-size: 1.5vw;
+	text-align: center;
+}
+.stolb_text{
+	color: #ededed;
+	margin: 0 2vw 0 2vw
+}
+footer{
+	font-size: 2vw;
+	margin: 0;
+	padding: 3vw;
+	background-color: #1b1b1c;
+	color: #FFBF00;
+}
+.flex_footer div{
+	width: 35vw;
+}
+.flex_footer{
+	display: flex;
+	align-items: center;
+}
+.project{
+	display: flex;
+	margin-left: 7.5vw;
+	margin-top: 0.5vw;
+}
+.fancy{
+	margin-left: 1.5vw;
+	margin-top: 0.5vw;
+}
+.connect{
+	margin-top: 0.75vw;
+	text-align: end;
+	margin-right: 1.5vw;
+}
+.connect img{
+	width: 2.5vw;
+}
